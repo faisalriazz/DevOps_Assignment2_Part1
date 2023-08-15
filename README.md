@@ -126,6 +126,7 @@ Commercial support is available at
 </body>
 </html>
 ```
+
 ## Create a new Docker container using the "httpd" image and connect it to the "my_network" network. Name the container "httpd_container".
 
 faisa@FaisalBhatti MINGW64 ~
@@ -179,9 +180,8 @@ faisa@FaisalBhatti MINGW64 ~
 <html><body><h1>It works!</h1></body></html>
 
 
-## 1.5. Use the "docker network inspect" command to display 
+## 1.5. Use the "docker network inspect" command to display information about the "my_network" network.
 
-information about the "my_network" network.
   * My network Subnet: "172.18.0.0/16" and Gateway: "172.18.0.1"
   * There are two containers connected to my_network.
   * nginx_container and httpd_container.
